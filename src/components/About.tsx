@@ -26,9 +26,16 @@ export function About() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="flex items-center justify-center gap-2 text-4xl md:text-5xl font-bold mb-6" style={{ color: '#0a3670' }}>
+          <h2
+            className="flex flex-col sm:flex-row items-center justify-center gap-3 text-3xl sm:text-4xl md:text-5xl font-bold mb-6"
+            style={{ color: '#0a3670' }}
+          >
             <span>About</span>
-            <img src={logoDark} alt="Justudio Logo" className="h-20 md:h-24 w-auto max-h-28 -mt-1" />
+            <img
+              src={logoDark}
+              alt="Justudio Logo"
+              className="h-16 sm:h-20 md:h-24 w-auto max-h-28 mt-2 sm:mt-0"
+            />
           </h2>
           <div className="w-24 h-1 mx-auto mb-8" style={{ backgroundColor: '#dcb417' }}></div>
           <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: '#0a3670' }}>
